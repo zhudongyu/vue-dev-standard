@@ -1,6 +1,7 @@
 # vue-dev-standard
 
 > A Vue.js project for dev standard
+
 > This is a front end Vue based project template that perfectly solves the problems 
   arising from the separation and development of the front and back ends
 
