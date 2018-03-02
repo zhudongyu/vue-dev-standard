@@ -1,11 +1,4 @@
-/*
- * @Author: zhudongyu 
- * @Date: 2018-02-25 11:00:43 
- * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2018-02-28 17:12:03
- */
-
- #vue-code-guide
+ # vue-code-standard
 
  > 这套编码规范的作用需要达到的目的是 -->  师出同门
 
