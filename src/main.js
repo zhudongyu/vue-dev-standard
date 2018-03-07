@@ -12,11 +12,11 @@ import store from './store/index.js'
 import './assets/global.css'
 // 引入element-ui
 import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+import '../node_modules/element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
 // 引入全局过滤
-import { currency } from './filter/currency'
-Vue.filter('currency', currency)
+// import { currency } from './filter/currency'
+// Vue.filter('currency', currency)
 
 
 Vue.config.productionTip = false

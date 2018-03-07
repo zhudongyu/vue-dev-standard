@@ -15,10 +15,17 @@ exports.assetsPath = function (_path) {
 exports.cssLoaders = function (options) {
   options = options || {}
 
+  // const cssLoader = {
+  //   loader: 'css-loader',
+  //   options: {
+  //     sourceMap: options.sourceMap
+  //   }
+  // }
   const cssLoader = {
     loader: 'css-loader',
     options: {
-      sourceMap: options.sourceMap
+      sourceMap: options.sourceMap,
+        localIdentName: '[path][name]__[local]--[hash:base64:5]'
     }
   }
 
